@@ -1,0 +1,108 @@
+{
+    "name": "Mirror-outstanding",
+    "description": "Telegram Bot Which Search Files From Our G-Drive",
+    "logo": "https://telegra.ph/file/e15e9ac9c5885b015e3ab.jpg",
+    "keywords": [
+      "telegram",
+      "bot",
+      "Nature",
+      "python"
+    ],
+    "repository": "https://github.com/Madhavreddy672/telegram-mirror-bot",
+    "website": "https://github.com/madhavreddy672/telegram-mirror-bot",
+    "success_url": "https://github.com/madhavreddy672/telegram-mirror-bot",
+    "stack": "container",
+    "env": {
+      "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+      "TOKEN": {
+        "description": "The telegram bot token that you get from @BotFather.",
+        "value": "",
+        "required": true
+    },
+      "ARIA_SECRET": {
+        "description": "ARIA 2 SECRET",
+        "value": "",
+        "required": true
+    },
+      "ARIA_DOWNLOAD_LOCATION": {
+        "description": "Hey Bro,Its Download Path",
+        "value": "/home/user/path/to/download/dir",
+        "required": true
+    },
+        
+      "ARIA_DOWNLOAD_LOCATION_ROOT": {
+        "description": "ARIA_DOWNLOAD_LOCATION_ROOT",
+        "value": "",
+        "required": true
+    },
+      "ARIA_FILTERED_DOMAINS": {
+        "description": "ARIA_FILTERED_DOMAINS",
+        "value": "",
+        "required": true
+    },
+      "ARIA_FILTERED_FILENAMES": {
+        "description": "ARIA_FILTERED_FILENAMES",
+        "value": "",
+        "required": true
+    },
+      "ARIA_PORT": {
+        "description": "ARIA_PORT",
+        "value": "",
+        "required": true
+    },
+      "GDRIVE_PARENT_DIR_ID": {
+        "description": "GDRIVE_PARENT_DIR_ID",
+        "value": "",
+        "required": true
+    },
+      "OTHER_GDRIVE_DIR_IDS": {
+        "description": "OTHER_GDRIVE_DIR_IDS",
+        "value": "",
+        "required": true
+    },
+      "SUDO_USERS": {
+        "description": "SUDO_USERS",
+        "value": "",
+        "required": true
+    },
+      "AUTHORIZED_CHATS": {
+        "description": "AUTHORIZED_CHATS",
+        "value": "",
+        "required": true
+    },
+      "STATUS_UPDATE_INTERVAL_MS": {
+        "description": "STATUS_UPDATE_INTERVAL_MS",
+        "value": "",
+        "required": true
+    },
+      "DOWNLOAD_NOTIFY_TARGET": {
+        "description": "DOWNLOAD_NOTIFY_TARGET",
+        "value": "",
+        "required": true
+    },
+      "COMMANDS_USE_BOT_NAME": {
+        "description": "COMMANDS_USE_BOT_NAME",
+        "value": "",
+        "required": true
+    },
+      "IS_TEAM_DRIVE": {
+        "description": "IS_TEAM_DRIVE",
+        "value": "",
+        "required": true
+    },
+      "USE_SERVICE_ACCOUNT": {
+        "description": "USE_SERVICE_ACCOUNT",
+        "value": "",
+        "required": true
+    },
+      "INDEX_DOMAIN": {
+        "description": "INDEX_DOMAIN",
+        "value": "",
+        "required": true
+      }
+
+    }
+}
