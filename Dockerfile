@@ -19,6 +19,5 @@ RUN mkdir /bot
 RUN chmod 777 /bot
 WORKDIR /bot
 
-ADD tar /bot/
 
 CMD ["bash","start.sh"]
